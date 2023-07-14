@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&family=Merriweather+Sans&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+header{
+    margin:auto;
+}
+
+main{
+    margin-top: 41px;
+}
+
+.titulo1{
+    font-family: 'Kanit';
+    color: white;
+    margin-left: 13px;
+}
+
+.titulo2{
+    font-family: 'Kanit';
+    color: white;
+    margin-left: 133px;
+    margin-top: -36px;
+}
+
+#Nome{
+    position: absolute;
+    top: 121px;
+    left: 46px;
+    width: 301px;
+    height: 32px;
+    border-radius: 10px;
+    font-family: 'Kanit';
+    font-weight: 500;
+    font-size: 15px;
+    padding-left: 20px;
+}
+.nome{
+    position: absolute;
+    top: 94px;
+    left: 183px;
+    font-family: kanit;
+}
+#Sobrenome{
+    position: absolute;
+    top: 188px;
+    left: 46px;
+    width: 301px;
+    height: 32px;
+    border-radius: 10px;
+    font-family: 'Kanit';
+    font-weight: 500;
+    font-size: 15px;
+    padding-left: 20px;
+}
+.sobrenome{
+    position: absolute;
+    top: 157px;
+    left: 167px;
+    font-family: kanit;
+}
+#Senha{
+    position: absolute;
+    top: 250px;
+    left: 46px;
+    font-family: kanit;
+    width: 301px;
+    height: 32px;
+    border-radius: 10px;
+    font-family: 'Kanit';
+    font-weight: 500;
+    font-size: 15px;
+    padding-left: 20px;
+}
+.senha{
+    position: absolute;
+    top: 223px;
+    left: 156px;
+    font-family: kanit;
+}
+#Email{
+    position: absolute;
+    top: 316px;
+    left: 46px;
+    font-family: kanit;
+    width: 301px;
+    height: 32px;
+    border-radius: 10px;
+    font-family: 'Kanit';
+    font-weight: 500;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.email{
+    position: absolute;
+    top: 289px;
+    left: 156px;
+    font-family: kanit;
+}
+
+.fieldset{
+    margin: auto;
+    width: 414px;
+    height: 503px;
+    background-color: #00000010;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    border: 2px solid #00000015;
+    backdrop-filter: blur(10px);
+}
+
+.formulario{
+    position: absolute;
+    top: 21px;
+    left: 138px;
+    font-family: kanit;
+    font-weight: 600;
+}
+
+.aniversario{
+    position: absolute;
+    top: 384px;
+    left: 44px;
+    font-family: kanit;
+}
+
+#aniversario{
+    font-family: kanit;
+    background-color: #0000;
+    border-radius: 2px;
+    border-color: #a0a0a0;
+    width: 100px;
+    height: 29px;
+    padding-left: 9px;
+}
+
+.botao{
+    position: absolute;
+    top: 448px;
+    left: 115px;
+}
+
+#botaoregistrar{
+    height: 35px;
+    width: 187px;
+    font-family: 'Kanit';
+    font-size: 17px;
+    font-weight: 500;
+}
