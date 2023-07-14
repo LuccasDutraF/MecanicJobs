@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&family=Merriweather+Sans&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #2938d5cc;
+    height: 73px;
+    width: 1349px;
+}
+
+.primeirotitulo{
+    margin-top: 22px;
+    margin-left: 25px;
+    font-family: 'Kanit';
+    font-style: normal;
+    line-height: 22px;
+    color: white;
+    cursor: default;
+}
+
+.segundotitulo{
+    margin-top: 25px;
+    margin-left: -991px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    color: white;
+    cursor: default;
+}
+
+#iniciarsessão{
+    margin-top: 19px;
+    margin-right: 12px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 19px;
+    line-height: 31px;
+    color: #ffffff;
+    border-radius: 35px;
+    width: 157px;
+    height: 34px;
+    background-color: #000000c9;
+    border-color: #1100ffe8;
+}
+
+main{
+    margin:auto;
+}
+
+.paragrafomeioUM {
+    margin: auto;
+    margin-top: 42px;
+    margin-left: 59px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    color: #ffffff;
+    cursor: default;
+}
+
+.paragrafomeio1 {
+    position: absolute;
+    top: 108px;
+    height: 106px;
+    width: 958px;
+    left: 185px;
+    border: 2px solid #FFA41B;
+    background-color: #ff811ee8;
+}
+
+.paragrafodomeio2 {
+    background-color: #2938d5cc;
+    width: 1110px;
+    height: 63px;
+    position: absolute;
+    top: 250px;
+    left: 109px;
+}
+
+.paragrafoDOIS {
+    margin-left: 117px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 59px;
+    color: black;
+    cursor: default;
+    width: 901px;
+
+}
+
+footer{
+    background-color: #0113d3d9;
+    height: 63px;
+    margin-top: 630px;
+    padding-bottom: 8px;
+    width: 1349px;
+}
+
+.paragrafotres{
+    position: absolute;
+    top: 730px;
+    left: 329px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: black;
+    cursor: default;
+    width: 864px;
+}
+
+.kovi1:hover .kovi{
+    filter: blur(0px);
+    transform: scale(1.03);
+}
+.wolks1:hover .wolks{
+    filter: blur(0px);
+    transform: scale(1.03);
+}
+.renault1:hover .renault{
+    filter: blur(0px);
+    transform: scale(1.03);
+}
+
+.kovi{
+    position:absolute;
+    top: 330px;
+    left: 177px;
+    filter:blur(2px);
+    background-color: #ffffff05;
+    border-radius: 15px;
+    border: 2px solid #ffffff10;
+    backdrop-filter: blur(1px);
+    height: 337px;
+    line-height: 0px;
+}
+
+.renault{
+    position:absolute;
+    top: 330px;
+    left: 510px;
+    filter: blur(2px);
+    background-color: #ffffff05;
+    border-radius: 15px;
+    border: 2px solid #ffffff10;
+    backdrop-filter: blur(1px);
+    height: 337px;
+    line-height: 0px;
+}
+
+.wolks{
+    position:absolute;
+    top: 330px;
+    left: 843px;
+    filter: blur(2px);
+    background-color: #ffffff05;
+    border-radius: 15px;
+    border: 2px solid #ffffff10;
+    backdrop-filter: blur(1px);
+    height: 337px;
+    line-height: 0px;
+}
