@@ -27,105 +27,75 @@ main{
 }
 
 #Nome{
-    position: absolute;
-    top: 121px;
-    left: 46px;
     width: 301px;
     height: 32px;
     border-radius: 10px;
     font-family: 'Kanit';
     font-weight: 500;
     font-size: 15px;
-    padding-left: 20px;
 }
-.nome{
-    position: absolute;
-    top: 94px;
-    left: 183px;
+.nome {
+    margin-top: 24px;
     font-family: kanit;
 }
+
 #Sobrenome{
-    position: absolute;
-    top: 188px;
-    left: 46px;
     width: 301px;
     height: 32px;
     border-radius: 10px;
     font-family: 'Kanit';
     font-weight: 500;
     font-size: 15px;
-    padding-left: 20px;
 }
 .sobrenome{
-    position: absolute;
-    top: 157px;
-    left: 167px;
+    margin-top: 8px;
     font-family: kanit;
 }
 #Senha{
-    position: absolute;
-    top: 250px;
-    left: 46px;
-    font-family: kanit;
     width: 301px;
     height: 32px;
     border-radius: 10px;
     font-family: 'Kanit';
     font-weight: 500;
     font-size: 15px;
-    padding-left: 20px;
 }
 .senha{
-    position: absolute;
-    top: 223px;
-    left: 156px;
+    margin-top: 7px;
     font-family: kanit;
 }
 #Email{
-    position: absolute;
-    top: 316px;
-    left: 46px;
-    font-family: kanit;
     width: 301px;
     height: 32px;
     border-radius: 10px;
     font-family: 'Kanit';
     font-weight: 500;
     font-size: 15px;
-    padding-left: 20px;
 }
 
 .email{
-    position: absolute;
-    top: 289px;
-    left: 156px;
+    margin-top: 6px;
     font-family: kanit;
 }
 
-.fieldset{
+.fieldset {
     margin: auto;
     width: 414px;
-    height: 503px;
     background-color: #00000010;
-    background-position: center;
-    background-size: cover;
     border-radius: 15px;
     border: 2px solid #00000015;
     backdrop-filter: blur(10px);
+    text-align: center;
 }
 
 .formulario{
-    position: absolute;
-    top: 21px;
-    left: 138px;
+    margin-top: 21px;
     font-family: kanit;
     font-weight: 600;
 }
 
 .aniversario{
-    position: absolute;
-    top: 384px;
-    left: 44px;
+    margin-top: 32px;
+    margin-left: -94px;
     font-family: kanit;
 }
 
@@ -140,9 +110,8 @@ main{
 }
 
 .botao{
-    position: absolute;
-    top: 448px;
-    left: 115px;
+    margin-top: 30px;
+    padding: 9px
 }
 
 #botaoregistrar{
@@ -151,4 +120,6 @@ main{
     font-family: 'Kanit';
     font-size: 17px;
     font-weight: 500;
+    border-radius: 10px;
+    border-color: #aaaaaa;
 }
