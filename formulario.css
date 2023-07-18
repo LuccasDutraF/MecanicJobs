@@ -5,121 +5,128 @@
     padding:0;
 }
 
-header{
+body{
+    font-family: kanit;
+    background-image: url("/MecanicjobsV3\ \(pronto\)/formulario/img/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
     margin:auto;
+    width: 100%;
+
 }
 
-main{
-    margin-top: 41px;
+#titulo1{
+    font-size: 230%;
+    margin-left:25px;
+    color:white;
 }
 
-.titulo1{
-    font-family: 'Kanit';
-    color: white;
-    margin-left: 13px;
+#titulo2{
+    font-size: 150%;
+    margin-top: 15px;
+    color:white;
 }
 
-.titulo2{
-    font-family: 'Kanit';
-    color: white;
-    margin-left: 133px;
-    margin-top: -36px;
-}
-
-#Nome{
-    width: 301px;
-    height: 32px;
-    border-radius: 10px;
-    font-family: 'Kanit';
-    font-weight: 500;
-    font-size: 15px;
-}
-.nome {
-    margin-top: 24px;
-    font-family: kanit;
-}
-
-#Sobrenome{
-    width: 301px;
-    height: 32px;
-    border-radius: 10px;
-    font-family: 'Kanit';
-    font-weight: 500;
-    font-size: 15px;
-}
-.sobrenome{
-    margin-top: 8px;
-    font-family: kanit;
-}
-#Senha{
-    width: 301px;
-    height: 32px;
-    border-radius: 10px;
-    font-family: 'Kanit';
-    font-weight: 500;
-    font-size: 15px;
-}
-.senha{
-    margin-top: 7px;
-    font-family: kanit;
-}
-#Email{
-    width: 301px;
-    height: 32px;
-    border-radius: 10px;
-    font-family: 'Kanit';
-    font-weight: 500;
-    font-size: 15px;
-}
-
-.email{
-    margin-top: 6px;
-    font-family: kanit;
-}
-
-.fieldset {
-    margin: auto;
-    width: 414px;
-    background-color: #00000010;
-    border-radius: 15px;
-    border: 2px solid #00000015;
-    backdrop-filter: blur(10px);
-    text-align: center;
+.formulario-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
 }
 
 .formulario{
-    margin-top: 21px;
-    font-family: kanit;
-    font-weight: 600;
-}
-
-.aniversario{
-    margin-top: 32px;
-    margin-left: -94px;
-    font-family: kanit;
-}
-
-#aniversario{
-    font-family: kanit;
-    background-color: #0000;
-    border-radius: 2px;
-    border-color: #a0a0a0;
-    width: 100px;
-    height: 29px;
-    padding-left: 9px;
-}
-
-.botao{
-    margin-top: 30px;
-    padding: 9px
-}
-
-#botaoregistrar{
-    height: 35px;
-    width: 187px;
-    font-family: 'Kanit';
-    font-size: 17px;
-    font-weight: 500;
+    width: 30%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
     border-radius: 10px;
-    border-color: #aaaaaa;
+    height: 465px;
+    border: 2px solid #00000015;
+    backdrop-filter: blur(4px);
+}
+
+.titulo-formulario{
+    font-size: 200%;
+    margin-top:10%;
+    
+}
+
+.form{
+    width: 60%;
+}
+
+#input-nome{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 7%;
+    border-radius:5px;
+    height: 20px;
+    font-family: kanit;
+    font-weight: 500;
+}
+
+#sobrenome{
+    margin-top:10%;
+}
+
+#input-sobrenome{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 7%;
+    border-radius:5px;
+    height: 20px;
+    font-family: kanit;
+    font-weight: 500;
+}
+
+#input-senha{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 7%;
+    border-radius:5px;
+    height: 20px;
+}
+
+#input-email{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 15%;
+    border-radius:5px;
+    height: 20px;
+    font-family: kanit;
+    font-weight: 500;
+}
+
+#input-nascimento{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-bottom: 15%;
+    border-radius:5px;
+    height: 20px;
+    font-family: kanit;
+    font-weight: 500;
+}
+
+#botao {
+    width: 50%;
+    height: 28px;
+    margin-top: 10px;
+    font-family: kanit;
+    font-weight: 500;
+}
+
+.nascimento-container{
+    display: flex;
+    flex-direction: row;
 }
