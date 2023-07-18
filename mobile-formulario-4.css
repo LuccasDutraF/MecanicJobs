@@ -46,7 +46,7 @@ body {
     display: flex;
     justify-content: center;
     border-radius: 10px;
-    height: 424px;
+    height: 447px;
     border: 2px solid #00000015;
     backdrop-filter: blur(4px);
 }
