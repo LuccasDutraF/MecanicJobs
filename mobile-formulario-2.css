@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&family=Merriweather+Sans&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+ font-family: kanit;
+        background-image: url("/MecanicjobsV3\ \(pronto\)/formulario/img/fundo.jpg");
+        background-repeat: no-repeat;
+        background-size: 225%;
+        background-position: center;
+}
+
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    margin:auto;
+    width: 100%;
+
+}
+
+#titulo1{
+    font-size: 200%;
+    margin-left:25px;
+    color:white;
+}
+
+#titulo2{
+    font-size: 120%;
+    margin-top: 15px;
+    color:white;
+}
+
+.formulario-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+}
+
+.formulario {
+    width: 55%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    height: 426px;
+    border: 2px solid #00000015;
+    backdrop-filter: blur(4px);
+}
+
+.titulo-formulario{
+    font-size: 200%;
+    margin-top:10%;
+    
+}
+
+.form{
+    width: 60%;
+}
+
+#input-nome{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 7%;
+    border-radius:5px;
+    height: 20px;
+    font-family: kanit;
+    font-weight: 500;
+}
+
+#sobrenome{
+    margin-top:10%;
+}
+
+#input-sobrenome{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 7%;
+    border-radius:5px;
+    height: 20px;
+    font-family: kanit;
+    font-weight: 500;
+}
+
+#input-senha{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 7%;
+    border-radius:5px;
+    height: 20px;
+}
+
+#input-email{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10%;
+    border-radius:5px;
+    height: 20px;
+    font-family: kanit;
+    font-weight: 500;
+}
+
+#input-nascimento {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-bottom: 10%;
+    border-radius: 5px;
+    height: 20px;
+    font-family: kanit;
+    font-weight: 500;
+}
+
+#botao {
+    width: 50%;
+    height: 28px;
+    font-family: kanit;
+    font-weight: 500;
+}
+
+.nascimento-container{
+    display: flex;
+    flex-direction: row;
+}
