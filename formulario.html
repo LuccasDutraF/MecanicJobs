@@ -1,56 +1,45 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro Mecanicjobs</title>
-    <link rel="stylesheet" href="formulario.css">
-    <link rel="stylesheet" media="screen and (max-width: 1085px)" href="mobile-formulario.css">
-    <link rel="stylesheet" media="screen and (max-width: 854px)" href="mobile-formulario-3.css">
-    <link rel="stylesheet" media="screen and (max-width: 641px)" href="mobile-formulario-2.css">
-    </head>
+    <link rel="stylesheet" href="formulario/css/formulario.css">
+    <link rel="stylesheet" media="screen and (max-width: 1085px)" href="formulario/css/mobile-formulario.css">
+    <link rel="stylesheet" media="screen and (max-width: 854px)" href="formulario/css/mobile-formulario-3.css">
+    <link rel="stylesheet" media="screen and (max-width: 641px)" href="formulario/css/mobile-formulario-2.css">
+    <title>formulario</title>
+</head>
 <body>
-    <header>
-    <h1 class="titulo1">Mecanic</h1>
-    <h2 class="titulo2">jobs</h2>
-    </header>
-    <main>
-<fieldset class="fieldset">
-    <h1 class="formulario">Cadastro</h1>
-    <form>
-    <div class="nome">
-        <label for="Nome">Nome</label> 
-    </div>
-    <div class="inputnome">
-        <input type="text" id="Nome">
-    </div>
-    <div class="sobrenome">
-        <label for="Sobrenome">Sobrenome</label> 
-    </div>
-    <div class="inputsobrenome">
-        <input type="text" id="Sobrenome">  
-    </div>
-    <div class="senha">    
-        <label for="Senha">Crie uma senha</label>
-    </div>
-    <div class="inputsenha">
-        <input type="password" id="Senha">
-    </div>
-    <div class="email">
-        <label for="Email">Insira seu Email</label>
-    </div>
-    <div class="inputemail">
-        <input type="email" id="Email"> 
-    </div>
-    <div class="aniversario">
-    <label for="aniversario">Nascimento</label>
-    <input type="date" id="aniversario">
-    </div>
-    <div class="botao">
-        <input type="button" id="botaoregistrar" value="Finalizar Cadastro">
-    </div>
-    </form>
-</fieldset>
-</main>
+    <section class="cabeçalho">
+        <h1 id="titulo1">Mecanic</h1>
+        <h3 id="titulo2">jobs</h3>
+    </section>
+
+    <section class="formulario-container">
+        <fieldset class="formulario">
+            <form class="form">
+                <h1 class="titulo-formulario">Formulario</h1>
+                <div class="inputs">
+                <label for="input-nome" id="nome">Nome</label>
+                <input type="text" id="input-nome">
+                <label for="input-sobrenome" id="sobrenome">Sobrenome</label>
+                <input type="text" id="input-sobrenome">
+                <label for="input-senha" id="senha">Senha</label>
+                <input type="password" id="input-senha">
+                <label for="input-email" id="email">Email</label>
+                <input type="email" id="input-email">
+                <div class="nascimento-container">
+                <label for="input-nascimento" id="nascimento">nascimento</label>
+                <input type="date" name="nascimento" id="input-nascimento">
+                </div>
+                <button id="botao">
+                    <a>
+                        Registrar
+                    </a>
+                </button>
+            </form>
+        </fieldset>
+    </section>
+    
 </body>
 </html>
