@@ -1,178 +1,146 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&family=Merriweather+Sans&display=swap');
 
-
 *{
-    padding: 0;
-    margin: 0;
+    margin:0;
+    padding:0;
 }
 
+body{
+    font-family: kanit;
+    background-image: url('img/mecanico.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 202%;
+    background-position:top
+}
 
-header{
+.cabeçalho{
+    width: 100%;
+}
+
+.cabeçalho-container{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     background-color: #2938d5cc;
-    height: 73px;
-    width: 1349px;
+    height: 63px;
 }
 
-.primeirotitulo{
-    margin-top: 22px;
-    margin-left: 25px;
+.botao-container{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.titulo1{
     font-family: 'Kanit';
     font-style: normal;
-    line-height: 22px;
     color: white;
     cursor: default;
+    font-size: 200%;
+    margin-left: 15px;
+    margin-top: 6px;
 }
 
-.segundotitulo{
-    margin-top: 25px;
-    margin-left: -991px;
+.titulo2{
     font-family: 'Kanit';
     font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 25px;
     color: white;
     cursor: default;
+    font-size: 160%;
+    margin-top: 14px;
 }
 
-#iniciarsessão{
-    margin-top: 19px;
-    margin-right: 12px;
+#botao-login{
     font-family: 'Kanit';
     font-style: normal;
     font-weight: 800;
     font-size: 19px;
-    line-height: 31px;
     color: #ffffff;
     border-radius: 35px;
     width: 157px;
     height: 34px;
     background-color: #000000c9;
     border-color: #1100ffe8;
+    margin-top: 13px;
+    margin-right: 11px;
 }
 
-main{
-    margin:auto;
+.artigo1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
-.paragrafomeioUM {
-    margin: auto;
-    margin-top: 42px;
-    margin-left: 59px;
-    font-family: 'Kanit';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 25px;
-    color: #ffffff;
-    cursor: default;
-}
-
-.paragrafomeio1 {
-    position: absolute;
-    top: 108px;
-    height: 106px;
-    width: 958px;
-    left: 185px;
+.artigo1-container{
     border: 2px solid #FFA41B;
     background-color: #ff811ee8;
+    width: 60%;
+    margin-top: 5%;
 }
 
-.paragrafodomeio2 {
+.conteudo-artigo1{
+    text-align: center;
+    padding: 4%;
+    font-weight: 650;
+    font-size: 115%;
+}
+
+.artigo2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.artigo2-container{
     background-color: #2938d5cc;
-    width: 1110px;
-    height: 63px;
-    position: absolute;
-    top: 250px;
-    left: 109px;
+    width: 75%;
+    margin-top:3%;
 }
 
-.paragrafoDOIS {
-    margin-left: 117px;
-    font-family: 'Kanit';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 59px;
-    color: black;
-    cursor: default;
-    width: 901px;
-
-}
-
-footer{
-    background-color: #0113d3d9;
-    height: 63px;
-    margin-top: 630px;
-    padding-bottom: 8px;
-    width: 1349px;
-}
-
-.paragrafotres{
-    position: absolute;
-    top: 730px;
-    left: 329px;
-    font-family: 'Kanit';
-    font-style: normal;
+.conteudo-artigo2{
+    text-align: center;
+    padding: 2%;
     font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    color: black;
-    cursor: default;
-    width: 864px;
+    font-size: 125%;
 }
 
-.kovi1:hover .kovi{
-    filter: blur(0px);
-    transform: scale(1.03);
-}
-.wolks1:hover .wolks{
-    filter: blur(0px);
-    transform: scale(1.03);
-}
-.renault1:hover .renault{
-    filter: blur(0px);
-    transform: scale(1.03);
+/*
+.galeria{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
 }
 
-.kovi{
-    position:absolute;
-    top: 330px;
-    left: 177px;
-    filter:blur(2px);
-    background-color: #ffffff05;
-    border-radius: 15px;
-    border: 2px solid #ffffff10;
-    backdrop-filter: blur(1px);
-    height: 337px;
-    line-height: 0px;
+.galeria-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 3%;
 }
 
-.renault{
-    position:absolute;
-    top: 330px;
-    left: 510px;
-    filter: blur(2px);
-    background-color: #ffffff05;
-    border-radius: 15px;
-    border: 2px solid #ffffff10;
-    backdrop-filter: blur(1px);
-    height: 337px;
-    line-height: 0px;
+.fotos{
+    width: 50%;
+}
+*/
+
+.rodape{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
-.wolks{
-    position:absolute;
-    top: 330px;
-    left: 843px;
-    filter: blur(2px);
-    background-color: #ffffff05;
-    border-radius: 15px;
-    border: 2px solid #ffffff10;
-    backdrop-filter: blur(1px);
-    height: 337px;
-    line-height: 0px;
+.rodape-container{
+    background-color:#0113d3d9;
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
 }
+
+.conteudo-rodape{
+    text-align: center;
+    padding: 0.5%;
+}
+
+.conteudo-rodape-2{
+    text-align: center;
+    padding-bottom: 5px;
+}
+
