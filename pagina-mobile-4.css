@@ -9,7 +9,7 @@ body{
     font-family: kanit;
     background-image: url('img/mecanico.jpg');
     background-repeat: no-repeat;
-    background-size: 180% 287%;
+    background-size: 228% 240%;
     background-position:top;
 }
 
@@ -72,8 +72,8 @@ body{
 .artigo1-container{
     border: 2px solid #FFA41B;
     background-color: #ff811ee8;
-    width: 65%;
-    margin-top: 11%;
+     width: 65%;
+    margin-top: 23%;
 }
 
 .conteudo-artigo1{
@@ -91,8 +91,8 @@ body{
 
 .artigo2-container{
     background-color: #2938d5cc;
-    width: 80%;
-    margin-top: 7%;
+    width: 86%;
+    margin-top: 14%;
 }
 
 .conteudo-artigo2{
