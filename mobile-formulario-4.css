@@ -9,8 +9,8 @@ body {
     font-family: kanit;
     background-image: url("img/fundo.jpg");
     background-repeat: no-repeat;
-    background-size: 263% 272%;
-    background-position: center;
+    background-size: 100% 158%;
+    background-position: top;
 }
 
 .cabeçalho{
@@ -22,14 +22,14 @@ body {
 }
 
 #titulo1{
-    font-size: 170%;
+    font-size: 156%;
     margin-left: 10px;
     color: white;
 }
 
 #titulo2{
-    font-size: 115%;
-    margin-top: 11px;
+    font-size: 106%;
+    margin-top: 9px;
     color: white;
 }
 
@@ -41,24 +41,28 @@ body {
 }
 
 .formulario {
-    width: 85%;
+    width: 60%;
     text-align: center;
     display: flex;
     justify-content: center;
     border-radius: 10px;
-    height: 447px;
+    height: 353px;
     border: 2px solid #00000015;
     backdrop-filter: blur(4px);
 }
 
 .titulo-formulario{
-    font-size: 200%;
-    margin-top:10%;
+    font-size: 137%;
+    margin-top: 10%;
     
 }
 
 .form{
-    width: 85%;
+    width: 77%;
+}
+
+#nome{
+    font-size: 90%;
 }
 
 #input-nome{
@@ -66,14 +70,15 @@ body {
     justify-content: center;
     width: 100%;
     margin-bottom: 7%;
-    border-radius:5px;
-    height: 20px;
+    border-radius: 5px;
+    height: 15px;
     font-family: kanit;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 #sobrenome{
     margin-top:10%;
+    font-size: 90%;
 }
 
 #input-sobrenome{
@@ -82,9 +87,13 @@ body {
     width: 100%;
     margin-bottom: 7%;
     border-radius:5px;
-    height: 20px;
+    height: 15px;
     font-family: kanit;
     font-weight: 500;
+}
+
+#senha{
+    font-size: 90%;
 }
 
 #input-senha{
@@ -93,25 +102,34 @@ body {
     width: 100%;
     margin-bottom: 7%;
     border-radius:5px;
-    height: 20px;
+    height: 15px;
+}
+
+#email{
+    font-size:90%;
 }
 
 #input-email{
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-bottom: 10%;
-    border-radius:5px;
-    height: 20px;
+    margin-bottom: 13%;
+    border-radius: 5px;
+    height: 15px;
     font-family: kanit;
     font-weight: 500;
+}
+
+#nascimento{
+    padding-right: 4px;
+    font-size: 90%;
 }
 
 #input-nascimento {
     display: flex;
     justify-content: center;
     width: 50%;
-    margin-bottom: 10%;
+    margin-bottom: 1%;
     border-radius: 5px;
     height: 20px;
     font-family: kanit;
@@ -119,8 +137,8 @@ body {
 }
 
 #botao {
-    width: 50%;
-    height: 28px;
+    width: 44%;
+    height: 23px;
     font-family: kanit;
     font-weight: 500;
 }
@@ -128,4 +146,6 @@ body {
 .nascimento-container{
     display: flex;
     flex-direction: row;
+    width: 115%;
+    margin-left: -5%;
 }

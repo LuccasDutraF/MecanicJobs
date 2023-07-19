@@ -5,12 +5,12 @@
     padding:0;
 }
 
-body{
- font-family: kanit;
-        background-image: url("img/fundo.jpg");
-        background-repeat: no-repeat;
-        background-size: 225%;
-        background-position: center;
+body {
+    font-family: kanit;
+    background-image: url(img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 165%;
+    background-position: top;
 }
 
 .cabeçalho{
@@ -22,96 +22,114 @@ body{
 }
 
 #titulo1{
-    font-size: 200%;
-    margin-left:25px;
-    color:white;
+    font-size: 156%;
+    margin-left: 10px;
+    color: white;
 }
 
 #titulo2{
-    font-size: 120%;
-    margin-top: 15px;
-    color:white;
+    font-size: 106%;
+    margin-top: 9px;
+    color: white;
 }
 
 .formulario-container {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 8%;
+    margin-top: 6%;
 }
 
 .formulario {
-    width: 45%;
+    width: 38%;
     text-align: center;
     display: flex;
     justify-content: center;
     border-radius: 10px;
-    height: 426px;
+    height: 326px;
     border: 2px solid #00000015;
     backdrop-filter: blur(4px);
 }
 
 .titulo-formulario{
-    font-size: 200%;
-    margin-top:10%;
+    font-size: 137%;
+    margin-top: 10%;
     
 }
 
 .form{
-    width: 60%;
+    width: 77%;
+}
+
+#nome{
+    font-size: 90%;
 }
 
 #input-nome{
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-bottom: 7%;
-    border-radius:5px;
-    height: 20px;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    height: 15px;
     font-family: kanit;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 #sobrenome{
     margin-top:10%;
+    font-size: 90%;
 }
 
 #input-sobrenome{
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-bottom: 7%;
-    border-radius:5px;
-    height: 20px;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    height: 15px;
     font-family: kanit;
     font-weight: 500;
+}
+
+#senha{
+    font-size: 90%;
 }
 
 #input-senha{
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-bottom: 7%;
-    border-radius:5px;
-    height: 20px;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    height: 15px;
+}
+
+#email{
+    font-size:90%;
 }
 
 #input-email{
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-bottom: 10%;
-    border-radius:5px;
-    height: 20px;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    height: 15px;
     font-family: kanit;
     font-weight: 500;
+}
+
+#nascimento{
+    padding-right: 4px;
+    font-size: 90%;
 }
 
 #input-nascimento {
     display: flex;
     justify-content: center;
     width: 50%;
-    margin-bottom: 10%;
+    margin-bottom: 1%;
     border-radius: 5px;
     height: 20px;
     font-family: kanit;
@@ -119,8 +137,8 @@ body{
 }
 
 #botao {
-    width: 50%;
-    height: 28px;
+    width: 44%;
+    height: 23px;
     font-family: kanit;
     font-weight: 500;
 }
@@ -128,4 +146,6 @@ body{
 .nascimento-container{
     display: flex;
     flex-direction: row;
+    width: 115%;
+    margin-left: -5%;
 }
