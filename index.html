@@ -1,87 +1,96 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mecanicjobs o site que facilita a busca sobre vagas na mecânica</title>
     <link rel="stylesheet" href="index.css">
-    <style>
-        body {
-            background-image: url(img/mecanico.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        }
-    </style>
+    <link rel="stylesheet" media="screen and (max-width: 1260px)" href="pagina-mobile.css">
+    <link rel="stylesheet" media="screen and (max-width: 930px)" href="pagina-mobile-2.css">
+    <link rel="stylesheet" media="screen and (max-width: 630px)" href="pagina-mobile-3.css">
+    <link rel="stylesheet" media="screen and (max-width: 375px)" href="pagina-mobile-4.css">
 </head>
-<body>  
+<body>
     <header>
-        <div class="primeirotitulo">
-            <h1>Mecanic</h1>
-        </div>
-        <div class="segundotitulo">
-            <h2>jobs</h2>
-        </div>
-            <button id="iniciarsessão" onclick="login()">
-                Iniciar sessão
+        <section class="cabeçalho"> 
+            <section class="cabeçalho-container">
+
+            <h1 class="titulo1">Mecanic</h1>
+            <h3 class="titulo2">jobs</h3>
+
+             <section class="botao-container">   
+
+            <button id="botao-login" onclick="login()">
+                iniciar sessão
             </button>
-            <script>    
-                function login() {
+            <script>
+
+            function login() {
                 
-                var login = document.getElementById('iniciarsessão')
+                var login = document.getElementById('botao-login')
                 var login = true
                 if(login==true) {
                     location.href = 'formulario.html';
                 }
                 }
+            
             </script>
-</section>
+            
+            </section>
 
-</header>
-<main>
+            </section>
 
-<section class="paragrafomeio1" >
-        <div class="paragrafomeioUM">
-            <h2>Escolhemos as melhores empresas para ajudar na sua pesquisa e facilitar a sua vida</h2>
-        </div>
-    </fieldset>
-</section>
+        </section>
 
-<section class="paragrafodomeio2">
-    <div class="paragrafoDOIS">
-            <h2>Escolha uma opção abaixo de seu agrado, e vá direto para a página de vagas da empresa</h2>
-    </div>
-</section>
+    </header>
 
-<section class="fotos">
-        <nav>
-            <div class="kovi1">
-            <a class="kovi" href="https://kovi.gupy.io/ KOVI">
-                <img src="img/kovi.png"
-                width="320px" height="390px">
-            </a>
+    <section class="artigo1">
+
+    <section class="artigo1-container">
+
+        <p class="conteudo-artigo1">Escolhemos as melhores empresas para ajudar na sua pesquisa e facilitar a sua vida</p>
+
+    </section>
+
+    </section>
+
+    <section class="artigo2">
+
+    <section class="artigo2-container">
+
+        <p class="conteudo-artigo2">Escolha uma opção abaixo de seu agrado, e vá direto para a página de vagas da empresa</p>
+
+    </section>
+
+    </section>
+    <!--
+    <section class="galeria">
+
+        <div class="galeria-container">
+
+            <div classs="fotos">
+            <a href=""><img src="img/kovi.png"  class="fotos" alt=""></a>
+            <a href=""><img src="img/renault.png" class="fotos" alt=""></a>
+            <a href=""><img src="img/wolks.png" class="fotos" alt=""></a>
             </div>
-            <div class="renault1">
-            <a class="renault" href="https://jobs.kenoby.com/renaultbrasil">
-                <img src="img/renault.png"
-                width="320px" height="375px">
-            </a>
-            </div>
-            <div class="wolks1">
-            <a class="wolks" href="https://vwbrasil.gupy.io/">
-                <img src="img/wolks.png"
-                width="330px" height="362px">
-            </a>
         </div>
-        </nav>
-</section>
-</main>
 
-<footer>
-    <div class="paragrafotres">
-            <h3>Futuramente adicionaremos mais opçoes, mas espero que o nosso site possa te ajudar</h3>
-    </div>
-</section>
-</footer>
-<script src="pagina.js"></script>
+    </section>
+    -->
+    <footer>
+
+        <section class="rodape">
+
+        <section class="rodape-container">
+
+            <p class="conteudo-rodape">Futuramente adicionaremos mais opções, mas espero que o nosso site possa te ajudar</p>
+            <p class="conteudo-rodape-2">@Copyright LDev</p>
+
+        </section>
+
+        </section>
+
+    </footer>
+
 </body>
 </html>
