@@ -7,9 +7,9 @@
 
 body{
     font-family: kanit;
-    background-image: url('mainpage/img-mainpage/mecanico.jpg');
+    background-image: url('/mainpage/img-mainpage/mecanico.jpg');
     background-repeat: no-repeat;
-    background-size: 100% 243%;
+    background-size: 100% 242%;
     background-position:top
 }
 
@@ -80,7 +80,7 @@ body{
     text-align: center;
     padding: 4%;
     font-weight: 650;
-    font-size: 115%;
+    font-size: 100%;
 }
 
 .artigo2{
@@ -99,7 +99,7 @@ body{
     text-align: center;
     padding: 2%;
     font-weight: 500;
-    font-size: 125%;
+    font-size: 105%;
 }
 
 /*
@@ -143,4 +143,3 @@ body{
     text-align: center;
     padding-bottom: 5px;
 }
-

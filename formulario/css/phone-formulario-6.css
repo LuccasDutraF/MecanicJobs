@@ -7,7 +7,7 @@
 
 body {
     font-family: kanit;
-    background-image: url(img/fundo.jpg);
+    background-image: url('/formulario/img-formulario/fundo.jpg');
     background-repeat: no-repeat;
     background-size: 125% 156%;
     background-position: top;

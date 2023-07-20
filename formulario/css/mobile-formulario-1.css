@@ -7,9 +7,9 @@
 
 body {
     font-family: kanit;
-    background-image: url(img/fundo.jpg);
+    background-image: url('/formulario/img-formulario/fundo.jpg');
     background-repeat: no-repeat;
-    background-size: 129% 226%;
+    background-size: 100% 157%;
     background-position: top;
 }
 
@@ -22,14 +22,14 @@ body {
 }
 
 #titulo1{
-    font-size: 299%;
+    font-size: 156%;
     margin-left: 10px;
     color: white;
 }
 
 #titulo2{
-    font-size: 227%;
-    margin-top: 15px;
+    font-size: 106%;
+    margin-top: 9px;
     color: white;
 }
 
@@ -37,16 +37,16 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 33%;
+    margin-top: 6%;
 }
 
 .formulario {
-    width: 48%;
+    width: 30%;
     text-align: center;
     display: flex;
     justify-content: center;
     border-radius: 10px;
-    height: 401px;
+    height: 334px;
     border: 2px solid #00000015;
     backdrop-filter: blur(4px);
 }
@@ -69,7 +69,7 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-bottom: 7%;
+    margin-bottom: 2%;
     border-radius: 5px;
     height: 15px;
     font-family: kanit;
@@ -85,8 +85,8 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-bottom: 7%;
-    border-radius:5px;
+    margin-bottom: 2%;
+    border-radius: 5px;
     height: 15px;
     font-family: kanit;
     font-weight: 500;
@@ -100,8 +100,8 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-bottom: 7%;
-    border-radius:5px;
+    margin-bottom: 2%;
+    border-radius: 5px;
     height: 15px;
 }
 
@@ -113,7 +113,7 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-bottom: 13%;
+    margin-bottom: 7%;
     border-radius: 5px;
     height: 15px;
     font-family: kanit;
@@ -129,7 +129,7 @@ body {
     display: flex;
     justify-content: center;
     width: 50%;
-    margin-bottom: 1%;
+    margin-bottom: 3%;
     border-radius: 5px;
     height: 20px;
     font-family: kanit;

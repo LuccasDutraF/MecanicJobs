@@ -7,9 +7,9 @@
 
 body{
     font-family: kanit;
-    background-image: url('img/mecanico.jpg');
+    background-image: url('/mainpage/img-mainpage/mecanico.jpg');
     background-repeat: no-repeat;
-    background-size: 181% 236%;
+    background-size: 181% 325%;
     background-position:top;
 }
 
