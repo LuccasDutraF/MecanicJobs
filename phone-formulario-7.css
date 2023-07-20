@@ -9,7 +9,7 @@ body {
     font-family: kanit;
     background-image: url(img/fundo.jpg);
     background-repeat: no-repeat;
-    background-size: 129% 186%;
+    background-size: 129% 226%;
     background-position: top;
 }
 
@@ -22,14 +22,14 @@ body {
 }
 
 #titulo1{
-    font-size: 344%;
+    font-size: 299%;
     margin-left: 10px;
     color: white;
 }
 
 #titulo2{
-    font-size: 274%;
-    margin-top: 11px;
+    font-size: 227%;
+    margin-top: 15px;
     color: white;
 }
 
@@ -37,7 +37,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 55%;
+    margin-top: 33%;
 }
 
 .formulario {
