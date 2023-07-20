@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&family=Merriweather+Sans&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: kanit;
+    background-image: url('img/mecanico.jpg');
+    background-repeat: no-repeat;
+    background-size: 181% 325%;
+    background-position:top;
+}
+
+.cabeçalho{
+    width: 100%;
+}
+
+.cabeçalho-container{
+    display: flex;
+    background-color: #2938d5cc;
+    height: 63px;
+}
+
+.botao-container{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+#botao-login{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    color: #ffffff;
+    border-radius: 35px;
+    width: 116px;
+    height: 23px;
+    background-color: #000000c9;
+    border-color: #1100ffe8;
+    margin-top: 20px;
+    margin-right: 11px;
+}
+
+.titulo1 {
+    font-family: 'Kanit';
+    font-style: normal;
+    color: white;
+    cursor: default;
+    font-size: 137%;
+    margin-left: 15px;
+    margin-top: 11px;
+}
+
+.titulo2{
+    font-family: 'Kanit';
+    font-style: normal;
+    color: white;
+    cursor: default;
+    font-size: 105%;
+    margin-top: 17px;
+}
+
+.artigo1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.artigo1-container{
+    border: 2px solid #FFA41B;
+    background-color: #ff811ee8;
+    width: 70%;
+    margin-top: 35%;
+}
+
+.conteudo-artigo1{
+    text-align: center;
+    padding: 4%;
+    font-weight: 650;
+    font-size: 84%;
+}
+
+.artigo2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.artigo2-container{
+    background-color: #2938d5cc;
+    width: 92%;
+    margin-top: 13%;
+}
+
+.conteudo-artigo2{
+    text-align: center;
+    padding: 2%;
+    font-weight: 500;
+    font-size: 98%;
+}
+
+/*
+.galeria{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.galeria-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 3%;
+}
+
+.fotos{
+    width: 50%;
+}
+*/
+
+.rodape{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.rodape-container{
+    background-color:#0113d3d9;
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+}
+
+.conteudo-rodape{
+    text-align: center;
+    padding: 0.5%;
+    font-size: 69%;
+    font-weight: 600;
+}
+
+.conteudo-rodape-2{
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 94%;
+}
