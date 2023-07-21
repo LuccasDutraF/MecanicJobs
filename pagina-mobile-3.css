@@ -7,10 +7,10 @@
 
 body{
     font-family: kanit;
-    background-image: url('/mainpage/img-mainpage/mecanico.jpg');
+    background-image: url('mecanico.jpg');
     background-repeat: no-repeat;
-    background-size: 181% 302%;
-    background-position:top;
+    background-size: 100% 261%;
+    background-position:top
 }
 
 .cabeçalho{
@@ -33,14 +33,14 @@ body{
     font-family: 'Kanit';
     font-style: normal;
     font-weight: 800;
-    font-size: 12px;
+    font-size: 16px;
     color: #ffffff;
     border-radius: 35px;
-    width: 116px;
-    height: 23px;
+    width: 133px;
+    height: 31px;
     background-color: #000000c9;
     border-color: #1100ffe8;
-    margin-top: 20px;
+    margin-top: 14px;
     margin-right: 11px;
 }
 
@@ -72,15 +72,15 @@ body{
 .artigo1-container{
     border: 2px solid #FFA41B;
     background-color: #ff811ee8;
-    width: 70%;
-    margin-top: 35%;
+    width: 65%;
+    margin-top: 11%;
 }
 
 .conteudo-artigo1{
     text-align: center;
     padding: 4%;
     font-weight: 650;
-    font-size: 84%;
+    font-size: 60%;
 }
 
 .artigo2{
@@ -91,15 +91,15 @@ body{
 
 .artigo2-container{
     background-color: #2938d5cc;
-    width: 92%;
-    margin-top: 13%;
+    width: 80%;
+    margin-top: 7%;
 }
 
 .conteudo-artigo2{
     text-align: center;
     padding: 2%;
     font-weight: 500;
-    font-size: 98%;
+    font-size: 75%;
 }
 
 /*
