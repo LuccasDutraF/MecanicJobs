@@ -9,7 +9,7 @@ body{
     font-family: kanit;
     background-image: url('mecanico4.jpg');
     background-repeat: no-repeat;
-    background-size: 110% 142%;
+    background-size: 110% 165%;
     background-position:top
 }
 
@@ -70,7 +70,7 @@ body{
 }
 
 .artigo1-container{
-    border: 2px solid #1bff41;
+    border: 2px solid #FFA41B;
     background-color: #ff811ee8;
     width: 65%;
     margin-top: 11%;
