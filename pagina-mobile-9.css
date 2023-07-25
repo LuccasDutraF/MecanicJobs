@@ -124,7 +124,6 @@ a{
 
 .kovi{
     width: 100%;
-    filter:blur(2px);
     background-color: #ffffff05;
     border-radius: 15px;
     border: 2px solid #ffffff10;
@@ -133,22 +132,21 @@ a{
     
     .renault{
         width: 110%;
-        margin-left: -11px;
-        filter:blur(2px);
+        margin-left: -8px;
         background-color: #ffffff05;
         border-radius: 15px;
         border: 2px solid #ffffff10;
         backdrop-filter: blur(1px);
-        height: 88%;
+        height: 86%;
     }
     
     .wolks{
     width: 102%;
-    filter:blur(2px);
     background-color: #ffffff05;
     border-radius: 15px;
     border: 2px solid #ffffff10;
     backdrop-filter: blur(1px);
+    height: 86%;
     }
 
 
