@@ -142,6 +142,7 @@ a:hover .wolks{
     border-radius: 15px;
     border: 2px solid #ffffff10;
     backdrop-filter: blur(1px);
+    height: 86%;
     }
     
     .renault{
