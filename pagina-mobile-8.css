@@ -9,7 +9,7 @@ body{
     font-family: kanit;
     background-image: url('mecanico4.jpg');
     background-repeat: no-repeat;
-    background-size: 100% 121%;
+    background-size: 100% 136%;
     background-position:top
 }
 
@@ -108,11 +108,11 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 22px;
+    margin-top: 48px;
 }
 
 .galeria-container{
-    width: 70%;
+    width: 65%;
     display: flex;
     justify-content: space-between;
 }
@@ -151,12 +151,6 @@ a{
     border: 2px solid #ffffff10;
     backdrop-filter: blur(1px);
     }
-
-.rodape{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
 
 .rodape-container{
     background-color:#0113d3d9;

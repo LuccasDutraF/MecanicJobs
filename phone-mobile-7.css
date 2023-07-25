@@ -9,7 +9,7 @@ body{
     font-family: kanit;
     background-image: url('mecanico4.jpg');
     background-repeat: no-repeat;
-    background-size: 186% 324%;
+    background-size: 186% 172%;
     background-position:top;
 }
 
@@ -102,24 +102,54 @@ body{
     font-size: 98%;
 }
 
-/*
 .galeria{
     width: 100%;
-    height: 100%;
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    margin-top: 309px;
 }
 
 .galeria-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-top: 3%;
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
 }
 
-.fotos{
-    width: 50%;
+a{
+    width: 31%;
+    margin-top: 11px;
 }
-*/
+
+
+.kovi{
+    width: 100%;
+    filter:blur(2px);
+    background-color: #ffffff05;
+    border-radius: 15px;
+    border: 2px solid #ffffff10;
+    backdrop-filter: blur(1px);
+    }
+    
+    .renault{
+        width: 110%;
+        margin-left: -8px;
+        filter: blur(2px);
+        background-color: #ffffff05;
+        border-radius: 15px;
+        border: 2px solid #ffffff10;
+        backdrop-filter: blur(1px);
+        height: 88%;
+    }
+    
+    .wolks{
+    width: 102%;
+    filter:blur(2px);
+    background-color: #ffffff05;
+    border-radius: 15px;
+    border: 2px solid #ffffff10;
+    backdrop-filter: blur(1px);
+    }
 
 .rodape{
     width: 100%;
